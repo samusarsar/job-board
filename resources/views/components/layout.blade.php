@@ -7,7 +7,7 @@
         <title>Laravel Job Board</title>
         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased">
-        <div class='text-4xl'>Big Text</div>
+    <body>
+        {{ $slot }}
     </body>
 </html>
