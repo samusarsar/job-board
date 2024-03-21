@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         $employers = Employer::all();
 
         for ($i = 0; $i < 100; $i++) {
-            Job::factory(100)->create([
+            Job::factory()->create([
                 "employer_id" => $employers->random()->id,
             ]);
         }
