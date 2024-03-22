@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="col-span-2">
-                    <x-button class="w-full">Create Job</x-button>
+                    <x-button class="w-full">Edit Job</x-button>
                 </div>
             </div>
         </form>
